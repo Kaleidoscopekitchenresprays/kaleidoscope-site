@@ -87,7 +87,11 @@ input, select, textarea {
 	}
 
 	body {
-		background: #2e3842;
+	background-image: url('../images/background.png'); /* make sure this matches your actual file path */
+	background-repeat: repeat;
+	background-size: auto; /* or '150px' for smaller logos, or 'contain' for scaling */
+	background-position: top left;
+	background-color: #37c0fb; /* fallback in case image doesn't load */
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
